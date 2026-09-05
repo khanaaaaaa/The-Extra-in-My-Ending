@@ -1,15 +1,40 @@
 ﻿label start:
     scene bg room at bg_fit
     with dissolve
-    yujin "Wow."
-    voice "audio/voices/intro/test.ogg"
+    voice "audio/voices/intro/yujin/02.ogg"
     yujin "I normally look good, but today I look incredible."
-    yujin "Anyway, I have to look extra good today."
+    voice "audio/voices/intro/yujin/07.ogg"
+    yujin "Anyway, I still have to look extra good today."
+    voice "audio/voices/intro/yujin/01.ogg"
     yujin "Because today is a really important day."
+    scene bg street at bg_fit
+    with dissolve
+    voice "audio/voices/intro/random/01.ogg"
     random "Whoa.. she's stunning."
+    voice "audio/voices/intro/random/02.ogg"
     random "Did you get a look at her?"
+    voice "audio/voices/intro/yujin/03.ogg"
     yujin "The comments you heard just now?"
+    voice "audio/voices/intro/yujin/04.ogg"
     yujin "This is how other characters describe Seo Yujin, the protagonist of 'Loving You Everyday'."
+    voice "audio/voices/intro/yujin/05.ogg"
     yujin "It's a book I happened to pick up one day."
+    voice "audio/voices/intro/yujin/06.ogg"
     yujin "Who would believe it would change my life so much?"
+    yujin "I'm not sure how, but I've become Seo Yujin."
+    yujinn "I have no worries or regrets because.."
+    narrator "The urgent sound of honking pierced the quiet morning prayer."
+    narrator "Lost in thought, Yujin stood in front of the oncoming bus."
+    narrator "Right then, someone grabbed her shoulder."
+    narrator "It was someone Yujin was close to."
+    dohyun "It's dangerous to walk around in a daze like that.."
+    yujin "(I know the whole story.)"
+    yujin "(I know what's goine to happen to me in the future.)"
+    yujin "(As you might have guessed, this is the male protagonist Jeha Yu.)"
+    yujin "T-thanks, Dohyun."
+    yujin "It's very convinient to predict all the bliss and excitement leading up to my prefect happy ending."
+    yujin "(My life is going to be so awesome from now on, I'm going to live happily even after with my crush while the other jealous girls butt out and get a reality check!)"
+    yujin "(Well, according to the story, this is the last day, we just flirt, Jeha confesses, and I finally get the happy ending I've been waiting for.)"
+    yujin "(I've read this book so many times that I practically know every scene by heart, nothing is supposed to go wrong.)"
+    
     return

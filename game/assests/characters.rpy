@@ -5,3 +5,7 @@ define yujin = Character(
 define random = (
     "???"
 )
+
+define dohyun = (
+    "Lee Dohyun"
+)
