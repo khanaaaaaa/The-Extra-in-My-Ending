@@ -22,7 +22,7 @@
     voice "audio/voices/intro/yujin/06.ogg"
     yujin "Who would believe it would change my life so much?"
     yujin "I'm not sure how, but I've become Seo Yujin."
-    yujinn "I have no worries or regrets because.."
+    yujin "I have no worries or regrets because.."
     narrator "The urgent sound of honking pierced the quiet morning prayer."
     narrator "Lost in thought, Yujin stood in front of the oncoming bus."
     narrator "Right then, someone grabbed her shoulder."
@@ -36,5 +36,28 @@
     yujin "(My life is going to be so awesome from now on, I'm going to live happily even after with my crush while the other jealous girls butt out and get a reality check!)"
     yujin "(Well, according to the story, this is the last day, we just flirt, Jeha confesses, and I finally get the happy ending I've been waiting for.)"
     yujin "(I've read this book so many times that I practically know every scene by heart, nothing is supposed to go wrong.)"
+    scene bg school at bg_fit
+    with dissolve
+    yujin "(Ah, we're at the school, this is where Jeha should confess.)"
+    dohyun "Yujin, there's somethine I wanted to tell you.."
+    yujin "(There it is.. the scene I've been waiting for.)"
+    pause 1.0
+    dohyun "I think we should stop seeing each other."
+    yujin "What?"
+    dohyun "You're acting strange lately"
+    yujin "No, that's impossible. You're supposed to-"
+    yujin "(I stop myself.)"
+    dohyun "What?"
+    yujin "Nothing."
+    extra "cough"
+    yujin "Huh.. why does nobody have a face."
+    extra "Yujin."
+    yujin "(I froze. I didn't know that voice, but somehow hearing my name from him made my stomach drop.)"
+    yujin "(I don't know who you are. You're not supposed to be here.. I've read this story enough times to know every single character.)"
+    yujin "(Why aren't the students in the hallway not moving anymore.)"
+    yujin "(Okay, I'm dreaming. That's the only logical explanation why everyone has blank faces.)"
+    yujin "Dohyun? Where are you? Please just answer me. I really don't want to be alone right now."
+    extra "You're still thinking about him? After everything you've done to get your perfect ending?"
+    yujin "(What does he mean? I haven't done anyting. I just wanted things to happen the way they were supposed to.)"
     
-    return
+    jump chapter_1
