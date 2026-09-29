@@ -7,6 +7,14 @@ label chapter_6:
     yujin "(I couldn't read it.)"
     yujin "(Every time I tried, the letters seemed to change.)"
     yujin "What does it say?"
+    menu:
+        "Try to read the name.":
+            yujin "(I forced myself to look at the letters.)"
+            yujin "(They wouldn't stay still.)"
+            $ remembered_extra = turned
+        "Look away.":
+            yujin "(I looked away.)"
+            yujin "(Something about that name made me uncomfortable.)"
     extra "You tell me."
     yujin "I can't."
     extra "You could before."
@@ -15,6 +23,14 @@ label chapter_6:
     yujin "(I looked at him.)"
     yujin "(His face was impossible to see.)"
     yujin "Why can't I see you?"
+    menu:
+        "Ask him to show his face.":
+            yujin "Show me."
+            extra "You really want to see?"
+            yujin "Yes."
+            $ trusted_extra = True
+        "Don't answer.":
+            yujin "(I didn't ask again.)"
     extra "Because you don't remember me."
     yujin "Then help me remember."
     etra "I can't."
