@@ -40,7 +40,7 @@ label chapter_2:
     yujin "(And then he bit me.)"
 
     scene black
-    with with fade
+    with fade
 
     yujin "(I woke up screaming.)"
     yujin "(September fourteenth.)"

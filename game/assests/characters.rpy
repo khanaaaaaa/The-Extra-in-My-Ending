@@ -14,6 +14,6 @@ define extra = (
     "???"
 )
 
-define npc (
+define npc = (
     "classmate"
 )

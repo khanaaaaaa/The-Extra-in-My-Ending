@@ -1,4 +1,4 @@
-label chapter_6:
+label chapter_5:
     scene bg classroom at bg_fit
     with fade
 
