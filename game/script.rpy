@@ -31,6 +31,8 @@
     narrator "Lost in thought, Yujin stood in front of the oncoming bus."
     narrator "Right then, someone grabbed her shoulder."
     narrator "It was someone Yujin was close to."
+    hide yujinneutralsmile
+    show dohyunsmiletalk at center_char
     dohyun "It's dangerous to walk around in a daze like that.."
     voice "audio/voices/intro/yujin/11.wav"
     yujin "(I know the whole story.)"
@@ -40,7 +42,6 @@
     yujin "(As you might have guessed, this is the male protagonist Jeha Yu.)"
     hide yujinneutralsmile
     show yujinsmiletalk at center_char
-    voice "audio/voices/intro/yujin/14.wav"
     yujin "Thanks, Dohyun."
     hide yujinsmiletalk
     show yujinsmilequiet at center_char
@@ -60,23 +61,37 @@
     voice "audio/voices/intro/yujin/20.wav"
     yujin "(There it is.. the scene I've been waiting for.)"
     pause 1.0
+    hide yujinsmilequiet
+    show dohyunsadtalk at center_char
     dohyun "I think we should stop seeing each other."
+    hide dohyunsadtalk
+    show dohyunneutralquiet at center_char
     voice "audio/voices/intro/yujin/21.wav"
     yujin "What?"
+    hide dohyunneutralquiet
+    show dohyunneutraltalk at center_char
     dohyun "You're acting strange lately"
+    hide dohyunneutraltalk
+    show dohyunneutralquiet at center_char
     voice "audio/voices/intro/yujin/22.wav"
     yujin "No, that's impossible. You're supposed to-"
+    hide dohyunneutralquiet
+    show dohyunsadtalk at center_char
     dohyun "What?"
+    hide dohyunsadtalk
+    show dohyunneutralquiet at center_char
     voice "audio/voices/intro/yujin/23.wav"
     yujin "(I stop myself.)"
     voice "audio/voices/intro/yujin/24.wav"
     yujin "Nothing."
+    hide dohyunneutralquiet
+    show facelessrandom at center_char
     extra "cough"
     voice "audio/voices/intro/yujin/25.wav"
     yujin "Huh.. why does nobody have a face?"
     extra "Yujin."
     voice "audio/voices/intro/yujin/29.wav"
-    yujin "(Okay, I'm dreaming. That's the only logical explanation why everyone has blank faces.)"
+    yujin "(Okay, I'm dreaming. Thats the only logical explanation why everyone has blank faces.)"
     voice "audio/voices/intro/yujin/26.wav"
     yujin "(I froze. I didn't know that voice, but somehow hearing my name from him made my stomach drop.)"
     voice "audio/voices/intro/yujin/27.wav"

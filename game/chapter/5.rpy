@@ -18,7 +18,7 @@ label chapter_5:
     extra "You tell me."
     yujin "I can't."
     extra "You could before."
-    yujin "(I ooked at him.)"
+    yujin "(I looked at him.)"
     yujin "(His face was still impossible to see.)"
     yujin "(I looked at him.)"
     yujin "(His face was impossible to see.)"
