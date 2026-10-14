@@ -22,6 +22,8 @@ define classmate = (
     "classmate"
 )
 
+## jeha is a nickname
+
 define jeha = (
-    "Lee Dohyun (nickname)"
+    "Lee Dohyun"
 )

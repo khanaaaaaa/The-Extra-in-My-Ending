@@ -13,7 +13,6 @@ label chapter_5:
         "Try to read the name.":
             yujin "(I forced myself to look at the letters.)"
             yujin "(They wouldn't stay still.)"
-            $ remembered_extra = turned
         "Look away.":
             yujin "(I looked away.)"
             yujin "(Something about that name made me uncomfortable.)"
@@ -36,9 +35,9 @@ label chapter_5:
             yujin "(I didn't ask again.)"
     extra "Because you don't remember me."
     yujin "Then help me remember."
-    etra "I can't."
+    extra "I can't."
     yujin "Why?"
-    etra "Because I don't know what you'll remember."
+    extra "Because I don't know what you'll remember."
     yujin "(I didn't understand.)"
     yujin "(Then I heard something behind me.)"
     yujin "(A chair against the floor.)"

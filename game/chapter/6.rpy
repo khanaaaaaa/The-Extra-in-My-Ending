@@ -48,9 +48,9 @@ label chapter_6:
     show dohyunneutraltalk at center_char
     jeha "Yujin."
     hide dohyunneutraltalk
-    show dohynneutralquiet at center_char
+    show dohyunneutralquiet at center_char
     yujin "(I didn't answer.)"
-    hide dphyunneutralquiet
+    hide dohyunneutralquiet
     show dohyunsmiletalk at center_char
     jeha "I've been looking for you."
     hide dohyunsmiletalk

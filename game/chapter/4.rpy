@@ -66,6 +66,6 @@ label chapter_4:
     extra "Tell me."
     extra "You already did."
     yujin "(Something moved behind me.)"
-    yjin "(One of the empty chairs had turned around.)"
+    yujin "(One of the empty chairs had turned around.)"
 
     jump chapter_5
