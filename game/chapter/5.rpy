@@ -2,6 +2,8 @@ label chapter_5:
     scene bg classroom at bg_fit
     with fade
 
+    play music "audio/background.mp3" fadein 2.0 loop
+
     yujin "(The chair was facing me.)"
     yujin "(There was a name carved into the back.)"
     yujin "(I couldn't read it.)"
@@ -15,7 +17,7 @@ label chapter_5:
         "Look away.":
             yujin "(I looked away.)"
             yujin "(Something about that name made me uncomfortable.)"
-    show facelessrandom at center_char
+    show facelessrandom at center_charr
     extra "You tell me."
     yujin "I can't."
     extra "You could before."

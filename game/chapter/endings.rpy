@@ -1,5 +1,6 @@
 label ending_jeha:
-    yujin "(I walked toward Jeha.)"
+    scene black
+    yujin "(I walked towards Jeha.)"
     jeha "There you are."
     yujin "(He smiled.)"
     yujin "(For a moment, I forgot everything.)"
@@ -25,6 +26,8 @@ label ending_jeha:
     return
 
 label ending_extra:
+    scene bg classroom at bg_fit
+    with dissolve
     yujin "(I turned around.)"
     yujin "(Jeha called my name.)"
     yujin "(I didn't answer.)"
@@ -34,10 +37,6 @@ label ending_extra:
     yujin "(Until there was nothing left except the door.)"
     yujin "(The same door.)"
     yujin "(I opened it.)"
-
-    scene bg classroom at bg_fit
-    with dissolve
-
     yujin "(The extra was sitting in the empty chair.)"
     yujin "(For the first time, I could see his face.)"
     yujin "(And I remembered his name.)"
@@ -55,14 +54,19 @@ label ending_extra:
     return
 
 label ending_unknown:
+    scene bg hallway at bg_fit
     yujin "(I didn't move.)"
+    show dohyunsmiletalk at center_char
     jeha "Yujin?"
+    hide dohyunsmiletalk
+    show dohyunneutralquiet at center_char
     yujin "(I looked at him.)"
     yujin "(Then I looked down the empty hallway.)"
     yujin "(I knew what the story wanted.)"
     yujin "(I knew what the extra wanted.)"
     yujin "(And for the first time, I realised that nobody has ever asked me what I wanted.)"
-    yujin "I'n not going."
+    yujin "I'm not going."
+    scene black 
     jeha "What?"
     yujin "I'm not going anywhere."
     yujin "(The hallway flickered.)"

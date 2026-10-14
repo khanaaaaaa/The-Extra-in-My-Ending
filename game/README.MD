@@ -2,7 +2,7 @@
 
 ## What It Is
 
-A RENPY game inspired by 'Surviving Romance' manhwa. Always been fascinated by classic Isekai trope. So, the premise is similar to it but my twist is that there's not zombies.
+A RENPY horror game inspired by 'Surviving Romance' manhwa. Always been fascinated by classic Isekai trope. So, the premise is similar to it but my twist is that there's not zombies, the antagonist is.. faceless?
 
 ## Why I Made It
 
@@ -18,6 +18,10 @@ Uhh, I've worked with RENPY a lot but aforementioned I never tried actually givi
 ## What I Learnt and What I Struggled With
 
 Adding voices to my project is fun. Though it's cringe listening to it again and again but to be cringe is to be free anyways. Also I learnt that I just write dialogues without even defining the character and have a lot of spelling mistakes lol. I guess I'm a master at adding sounds now.
+
+## AI Usage
+
+Used AI for 2 voice lines for the extra at the beginning.
 
 ## Art Credits
 

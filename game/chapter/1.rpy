@@ -1,5 +1,7 @@
 label chapter_1:
 
+    play music "audio/background.mp3" fadein 2.0 loop
+
     scene bg school at bg_fit
     with dissolve
 
@@ -44,7 +46,7 @@ label chapter_1:
     yujin "I don't know."
     yujin "(I wanted to tell him everything.. but something stopped me.)"
     yujin "(The boy's voice came back to me.)"
-    show facelessrandom at center_char
+    show facelessrandom at center_charr
     extra "You came back."
     yujin "(I looked toward the classroom door.)"
     yujin "(He was standing there.)"
@@ -54,6 +56,7 @@ label chapter_1:
     extra "You actually don't remember me?"
     yujin "(I didn't answer.)"
     extra "That's okay.. you will."
+    voice "audio/voices/silence.wav"
     yujin "(The bell rang, and he disappeared.)"
     yujin "(I spent the rest of the morning pretending nothing happened.)"
     yujin "(But when lunch started, I noticed something written on the corner of my notebook.)"

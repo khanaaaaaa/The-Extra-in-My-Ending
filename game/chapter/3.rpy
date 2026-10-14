@@ -3,6 +3,8 @@ label chapter_3:
     scene black
     with dissolve
 
+    play music "audio/background.mp3" fadein 2.0 loop
+
     yujin "(I stopped counting after thirty.)"
     yujin "(At first, I thought I could fix everything. I tried everything: staying away from Jeha, following him everywhere, leaving school, and calling the police.)"
     yujin "(Nothing worked.)"
@@ -12,7 +14,6 @@ label chapter_3:
     yujin "(And sometimes the entire school disappeared before anything even started.)"
     yujin "(But there was always one thing that stayed the same.)"
     yujin "(The extra.)"
-    show facelessrandom at center_char
     extra "You keep coming back."
     yujin "How many times have I done this?"
     extra "You really want me to tell you?"

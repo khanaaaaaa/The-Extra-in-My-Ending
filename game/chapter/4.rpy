@@ -2,10 +2,12 @@ label chapter_4:
     scene bg school at bg_fit
     with dissolve
 
+    play music "audio/background.mp3"
+
     yujin "(I stopped trying to save Jeha.)"
     yujin "(I stopped trying to predict what would happen next.)"
     yujin "(Instead, I followed the extra.)"
-    show facelessrandom at center_char
+    show facelessrandom at center_charr
     yujin "So where are we going?"
     extra "Somewhere you haven't been."
     yujin "I've been here before."
@@ -33,7 +35,7 @@ label chapter_4:
     yujin "(I recognized mine.)"
     yujin "(Then I saw today's date written on the blackboard.)"
     yujin "September fourteenth."
-    show facelessrandom at center_char
+    show facelessrandom at center_charr
     extra "Yes."
     yujin "Why is it written here?"
     extra "Because it always starts here."

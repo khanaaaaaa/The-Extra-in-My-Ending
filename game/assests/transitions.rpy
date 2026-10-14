@@ -7,3 +7,8 @@ transform center_char:
     xalign 0.5
     yalign 1.0
     zoom 1.5
+
+transform center_charr:
+    xalign 0.0
+    yalign 1.0
+    zoom 2

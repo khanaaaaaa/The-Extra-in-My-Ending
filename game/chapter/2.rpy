@@ -2,6 +2,8 @@ label chapter_2:
     scene bg school at bg_fit
     with dissolve
 
+    play music "audio/background.mp3" fadein 2.0 loop
+
     show yujinneutralquiet at center_char
     yujin "(I decided I wasn't going to follow the story anymore.)"
     yujin "(If I knew what was going to happen, I could stop it.)"

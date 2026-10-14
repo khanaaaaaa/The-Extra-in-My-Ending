@@ -1,3 +1,5 @@
 image bg room = "assests/backgrounds/room.jpg"
 image bg street = "assests/backgrounds/street.avif"
-image bg school = "assests/backgrounds/school.jpe"
+image bg school = "assests/backgrounds/school.avif"
+image bg hallway = "assests/backgrounds/hallway.avif"
+image bg classroom = "assests/backgrounds/classroom.jpg"

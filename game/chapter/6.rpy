@@ -2,6 +2,8 @@ label chapter_6:
     scene bg classroom at bg_fit
     with dissolve
 
+    play music "audio/background.mp3"
+
     yujin "(The knocking stopped.)"
     yujin "(Nobody moved.)"
     yujin "(I looked at the extra.)"

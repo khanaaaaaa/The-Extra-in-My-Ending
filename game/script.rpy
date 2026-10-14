@@ -27,22 +27,14 @@
     yujin "I'm not sure how, but I've become Seo Yujin."
     voice "audio/voices/intro/yujin/10.wav"
     yujin "I have no worries or regrets because.."
-    narrator "The urgent sound of honking pierced the quiet morning prayer."
-    narrator "Lost in thought, Yujin stood in front of the oncoming bus."
-    narrator "Right then, someone grabbed her shoulder."
-    narrator "It was someone Yujin was close to."
-    hide yujinneutralquiet
-    show dohyunneutraltalk at center_char
-    dohyun "It's dangerous to walk around in a daze like that.."
     voice "audio/voices/intro/yujin/11.wav"
     yujin "(I know the whole story.)"
     voice "audio/voices/intro/yujin/12.wav"
     yujin "(I know what's going to happen to me in the future.)"
     voice "audio/voices/intro/yujin/13.wav"
     yujin "(As you might have guessed, this is the male protagonist Jeha Yu.)"
-    yujin "Thanks, Dohyun."
-    hide dohyunneutraltalk
-    show yujinsmilequiet at center_char
+    hide yujinneutralquiet
+    show dohyunsmilequiet at center_char
     voice "audio/voices/intro/yujin/15.wav"
     yujin "(It's very convinient to predict all the bliss and excitement leading up to my perfect happy ending.)"
     voice "audio/voices/intro/yujin/16.wav"
@@ -55,49 +47,43 @@
     with dissolve
     voice "audio/voices/intro/yujin/19.wav"
     yujin "(Ah, we're at the school, this is where Jeha should confess.)"
+    hide dohyunsmilequiet
+    show dohyunneutraltalk at center_char
     dohyun "Yujin, there's something I wanted to tell you.."
+    hide dohyunneutraltalk
+    show dohyunneutralquiet at center_char
     voice "audio/voices/intro/yujin/20.wav"
     yujin "(There it is.. the scene I've been waiting for.)"
     pause 1.0
-    hide yujinsmilequiet
+    hide dohyunsmilequiet 
     show dohyunneutraltalk at center_char
     dohyun "I think we should stop seeing each other."
     hide dohyunneutraltalk
     show dohyunneutralquiet at center_char
-    voice "audio/voices/intro/yujin/21.wav"
     yujin "What?"
     hide dohyunneutralquiet
     show dohyunneutraltalk at center_char
     dohyun "You're acting strange lately"
     hide dohyunneutraltalk
     show dohyunneutralquiet at center_char
-    voice "audio/voices/intro/yujin/22.wav"
     yujin "No, that's impossible. You're supposed to-"
     hide dohyunneutralquiet
     show dohyunneutraltalk at center_char
     dohyun "What?"
     hide dohyunneutraltalk
     show dohyunneutralquiet at center_char
-    voice "audio/voices/intro/yujin/23.wav"
     yujin "(I stop myself.)"
-    voice "audio/voices/intro/yujin/24.wav"
     yujin "Nothing."
     hide dohyunneutralquiet
-    show facelessrandom at center_char
+    show facelessrandom at center_charr
     extra "cough"
-    voice "audio/voices/intro/yujin/25.wav"
     yujin "Huh.. why does nobody have a face?"
     extra "Yujin."
-    voice "audio/voices/intro/yujin/29.wav"
     yujin "(Okay, I'm dreaming. Thats the only logical explanation why everyone has blank faces.)"
-    voice "audio/voices/intro/yujin/26.wav"
     yujin "(I froze. I didn't know that voice, but somehow hearing my name from him made my stomach drop.)"
-    voice "audio/voices/intro/yujin/27.wav"
     yujin "(I don't know who you are. You're not supposed to be here. I've read this story enough times to know every single character.)"
-    voice "audio/voices/intro/yujin/30.wav"
     yujin "Dohyun? Where are you? Please just answer me. I really don't want to be alone right now."
     extra "You're still thinking about him? After everything you've done to get your perfect ending?"
-    voice "audio/voices/intro/yujin/31.wav"
     yujin "(What does he mean? I haven't done anyting. I just want things to happen the way they are supposed to.)"
     
     jump chapter_1
