@@ -5,6 +5,7 @@ label chapter_4:
     yujin "(I stopped trying to save Jeha.)"
     yujin "(I stopped trying to predict what would happen next.)"
     yujin "(Instead, I followed the extra.)"
+    show facelessrandom at center_char
     yujin "So where are we going?"
     extra "Somewhere you haven't been."
     yujin "I've been here before."
@@ -18,6 +19,7 @@ label chapter_4:
     yujin "What's inside?"
     yujin "(I opened the door.)"
     extra "You."
+    hide facelessrandom
     scene bg classroom at bg_fit
     with dissolve
     yujin "(It was a classroom.)"
@@ -31,6 +33,7 @@ label chapter_4:
     yujin "(I recognized mine.)"
     yujin "(Then I saw today's date written on the blackboard.)"
     yujin "September fourteenth."
+    show facelessrandom at center_char
     extra "Yes."
     yujin "Why is it written here?"
     extra "Because it always starts here."

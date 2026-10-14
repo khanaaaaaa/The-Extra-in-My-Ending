@@ -1,6 +1,6 @@
 label chapter_3:
 
-    scene bg room at bg_fit
+    scene black
     with dissolve
 
     yujin "(I stopped counting after thirty.)"
@@ -12,6 +12,7 @@ label chapter_3:
     yujin "(And sometimes the entire school disappeared before anything even started.)"
     yujin "(But there was always one thing that stayed the same.)"
     yujin "(The extra.)"
+    show facelessrandom at center_char
     extra "You keep coming back."
     yujin "How many times have I done this?"
     extra "You really want me to tell you?"
@@ -33,7 +34,6 @@ label chapter_3:
     yujin "(Everytime I saw him before, I died shortly afterward.)"
     yujin "What happens if I remember you?"
     extra "You'll find out."
-    yujin "(He smiled.)"
     extra "You always do."
 
     jump chapter_4

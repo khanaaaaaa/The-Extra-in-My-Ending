@@ -1,7 +1,7 @@
 ﻿label start:
     scene bg room at bg_fit
     with dissolve
-    show yujinneutralsmile at center_char
+    show yujinneutralquiet at center_char
     voice "audio/voices/intro/yujin/02.ogg"
     yujin "I normally look good, but today I look incredible."
     voice "audio/voices/intro/yujin/07.ogg"
@@ -10,7 +10,7 @@
     yujin "Because today is a really important day."
     scene bg street at bg_fit
     with dissolve
-    show yujinneutralsmile at center_char
+    show yujinneutralquiet at center_char
     voice "audio/voices/intro/random/01.ogg"
     random "Whoa.. she's stunning."
     voice "audio/voices/intro/random/02.ogg"
@@ -31,8 +31,8 @@
     narrator "Lost in thought, Yujin stood in front of the oncoming bus."
     narrator "Right then, someone grabbed her shoulder."
     narrator "It was someone Yujin was close to."
-    hide yujinneutralsmile
-    show dohyunsmiletalk at center_char
+    hide yujinneutralquiet
+    show dohyunneutraltalk at center_char
     dohyun "It's dangerous to walk around in a daze like that.."
     voice "audio/voices/intro/yujin/11.wav"
     yujin "(I know the whole story.)"
@@ -40,10 +40,8 @@
     yujin "(I know what's going to happen to me in the future.)"
     voice "audio/voices/intro/yujin/13.wav"
     yujin "(As you might have guessed, this is the male protagonist Jeha Yu.)"
-    hide yujinneutralsmile
-    show yujinsmiletalk at center_char
     yujin "Thanks, Dohyun."
-    hide yujinsmiletalk
+    hide dohyunneutraltalk
     show yujinsmilequiet at center_char
     voice "audio/voices/intro/yujin/15.wav"
     yujin "(It's very convinient to predict all the bliss and excitement leading up to my perfect happy ending.)"
@@ -62,9 +60,9 @@
     yujin "(There it is.. the scene I've been waiting for.)"
     pause 1.0
     hide yujinsmilequiet
-    show dohyunsadtalk at center_char
+    show dohyunneutraltalk at center_char
     dohyun "I think we should stop seeing each other."
-    hide dohyunsadtalk
+    hide dohyunneutraltalk
     show dohyunneutralquiet at center_char
     voice "audio/voices/intro/yujin/21.wav"
     yujin "What?"
@@ -76,9 +74,9 @@
     voice "audio/voices/intro/yujin/22.wav"
     yujin "No, that's impossible. You're supposed to-"
     hide dohyunneutralquiet
-    show dohyunsadtalk at center_char
+    show dohyunneutraltalk at center_char
     dohyun "What?"
-    hide dohyunsadtalk
+    hide dohyunneutraltalk
     show dohyunneutralquiet at center_char
     voice "audio/voices/intro/yujin/23.wav"
     yujin "(I stop myself.)"

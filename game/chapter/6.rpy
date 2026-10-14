@@ -39,16 +39,29 @@ label chapter_6:
     yujin "(Someone was laughing.)"
     yujin "(The bell was ringing.)"
     yujin "(Then I saw Jeha.)"
+    show dohyunneutralquiet at center_char
     yujin "(He was standing at the end of the hallway.)"
     yujin "(He looked completely normal.)"
+    hide dohyunneutralquiet
+    show dohyunneutraltalk at center_char
     jeha "Yujin."
+    hide dohyunneutraltalk
+    show dohynneutralquiet at center_char
     yujin "(I didn't answer.)"
+    hide dphyunneutralquiet
+    show dohyunsmiletalk at center_char
     jeha "I've been looking for you."
+    hide dohyunsmiletalk
+    show dohyunneutralquiet at center_char
     yujin "(I looked behind me.)"
     yujin "(The extra was gone.)"
     yujin "(So was the other Yujin.)"
     yujin "(I was alone.)"
+    hide dohyunneutralquiet
+    show dohyunsmiletalk at center_char
     jeha "Are you coming?"
+    hide dohyunsmiletalk
+    show dohyunsmilequiet at center_char
     yujin "(I knew this moment, this was the scene.)"
     yujin "(The confession.)"
     yujin "(The happy ending.)"

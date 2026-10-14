@@ -26,7 +26,7 @@ label ending_jeha:
 
 label ending_extra:
     yujin "(I turned around.)"
-    yujin "(Jeh called my name.)"
+    yujin "(Jeha called my name.)"
     yujin "(I didn't answer.)"
     yujin "(I walked in the opposite direction.)"
     yujin "(The hallway becamse longer.)"

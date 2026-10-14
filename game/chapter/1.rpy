@@ -3,19 +3,19 @@ label chapter_1:
     scene bg school at bg_fit
     with dissolve
 
-    show yujinneutralsmile at center_char
+    show yujinneutralquiet at center_char
     yujin "(I don't remember walking to school.)"
     yujin "(But everything looks normal.)"
     yujin "(Everyone is here, except.. why does it feel like I've done this before?)"
-    hide yujinneutralsmile
+    hide yujinneutralquiet
     show yujinsmiletalk at center_char
     yujin "Whats' the date?"
     hide yujinsmiletalk
-    show yujinneutralquiet at center_char
+    show yujinsmilequiet at center_char
     classmate "September fourteenth."
     yujin "September fourteenth."
     yujin "(My stomach dropped. I knew that date, and I really didn't believe it was happening again.)"
-    hide yujinneutralquiet
+    hide yujinsmilequiet
     show yujinsmiletalk at center_char
     yujin "What time is it?"
     hide yujinsmiletalk

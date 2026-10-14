@@ -15,6 +15,7 @@ label chapter_5:
         "Look away.":
             yujin "(I looked away.)"
             yujin "(Something about that name made me uncomfortable.)"
+    show facelessrandom at center_char
     extra "You tell me."
     yujin "I can't."
     extra "You could before."
